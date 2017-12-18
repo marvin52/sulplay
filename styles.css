@@ -1,0 +1,129 @@
+body{
+  padding-top: 70px;
+}
+button.menu-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 30px;
+  box-sizing: border-box;
+  transform: translateX(-15px);
+  padding: 0px;
+  background: transparent;
+  border: 0px;
+  color: #FF4115;
+  cursor: pointer;
+}
+h1.navbar-brand {
+  display: inline-block;
+  font-family: 'Righteous', cursive;
+  width: calc( 100% - 100px );
+  text-align: center;
+  font-size: 30px;
+  color: #FF4115 !important;
+}
+nav.navbar {
+  background: #111;
+  display: block;
+}
+
+#home {
+  padding-top: 15px;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.top-semanal {
+  padding-top: 15px;
+}
+
+
+.top-semanal table span{
+  display: block;
+}
+.top-semanal table button{
+  border-radius: 50%;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #FF4115;
+  color: white;
+}
+.top-semanal table .music-name{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.top-semanal table .band-name{
+  color: #FF4115;
+}
+
+
+h4 {
+  font-family: 'Righteous', cursive;
+  background: #FF4115;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.sidebar-mobile-bg {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  left: 0px;
+  height: 100vh;
+  background: rgba(0,0,0,.8);
+  z-index: 9900;
+  cursor: pointer;
+}
+
+.sidebar-mobile-bg.off {
+  left: calc(-100vw);
+}
+
+.sidebar-mobile {
+  transition: left .1s linear;
+  position: fixed;
+  top: 0px;
+  width: 75vw;
+  left: 0px;
+  height: 100vh;
+  background: #FF4115;
+  z-index: 10000;
+}
+
+.sidebar-mobile.off {
+  left: calc(-75vw);
+}
+.menu-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu-list li{
+  padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.menu-close {
+  background: transparent;
+  border: 0px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.hide {
+  display: none;
+}
